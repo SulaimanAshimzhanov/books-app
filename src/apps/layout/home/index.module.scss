@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.row_card {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+}

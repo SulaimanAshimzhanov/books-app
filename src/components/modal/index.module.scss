@@ -1,0 +1,58 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_window {
+        width: 50%;
+        height: 700px;
+        background-color: rgb(155, 81, 21);
+        position: fixed;
+        margin-top: 600px;
+        z-index: 1000;
+        border-radius: 10px;
+        box-shadow: 0 0 20px white;
+
+        .close {
+            position: absolute;
+            top: 0.3rem;
+            right: 0.2rem;
+            outline: 0;
+            border: 0;
+            font-size: 20px;
+            background-color: transparent;
+            cursor: pointer;
+        }
+        
+
+        &_wrapper {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            gap: 100px;
+            margin-top: 100px;
+            
+            img {
+                width: 300px;
+                height: 400px;
+                box-shadow: 5px 10px 15px blanchedalmond;
+            }
+
+            &_info {
+                p {
+                    border: 1px solid black;
+                    padding: 10px 5px;
+                    width: 200px;
+                }
+
+                u {
+                    width: 200px;
+                }
+
+                h3 {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
